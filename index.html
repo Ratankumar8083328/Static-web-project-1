@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset */
+        
+            body{
+                margin: 0px;
+                padding: 0px;
+                background: url(img/abs-1850926_1920.jpg);
+                height: 1444px;
+                font-family: 'Playfair Display', serif;
+                
+            }
+            .left{
+                
+                position: absolute;
+                left: 41px;
+                top: 20px;
+                  border: 2px solid red;
+                  color: white;
+                  display: inline-block;
+            }
+            .left div{
+                text-align: center;
+            }
+            .left img{
+                width: 46px;
+                filter: invert(100);
+                
+            }
+            .mid{
+                   display: block;
+                  border:2px solid yellow;
+                  color: white;
+                  width: 36%;
+                  margin: 23px 311px;
+                  top: 20px;
+            }
+            .right{
+                  border: 2px solid blue;
+                  color: white;
+                  display: inline-block;
+                  position: absolute;
+                  right: 34px;
+                  top: 20px;
+            }
+            .navBar{
+                    display: inline-block ;
+            }
+            .navBar li{
+                    display: inline-block;
+            }
+            .navBar li a {
+                     color: white;
+                     text-decoration: none;
+                     padding: 23px 23px;
+            }
+            .navBar li a:hover, .navBar li a.active{
+                text-decoration: underline;
+                color: grey;
+            }
+            .btn{
+                margin: 0px 9px;
+                color: white;
+                background-color: black;
+                padding: 4px 16px;
+                border-radius: 10px;
+                font-size: 15px;
+                cursor: pointer;
+                font-family: 'Playfair Display', serif;
+
+            }
+            .btn:hover{
+                background-color: grey;
+            }
+             .container{
+                border: 2px solid green;
+                color: white;
+                margin: 101px 50px;
+                width: 35%;
+                padding: 75px;
+                border-radius: 2px;
+             }
+             .form-group input{
+                text-align: center;
+                display: block;
+                width: 268px;
+                padding: 6px;
+                margin: 3px auto;
+                border-radius: 10px;
+                font-size: 15px;
+                font-family: 'Playfair Display', serif;
+             }
+             
+             .container h1{
+                text-align: center;
+             }
+             .container button{
+                display: block;
+                width: 32%;
+                margin: auto;
+
+             }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+          <div class="left">
+             <img src="img/image1.jpg">
+             <div>Ratan Fitness</div>
+          </div>
+
+          <!-- mid for navigation -->
+          <div class="mid">
+                <ul class="navBar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+          </div>
+
+          <!-- right fot button -->
+          <div class="right">
+            <button class="btn">
+              Call us now
+            </button>
+            <button class="btn">
+              Email us
+            </button>
+          </div>
+    </header>
+    <div class="container">
+           <h1>Join the gym of Patna now</h1>
+           <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name"
+               </div>
+               <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age"
+               </div>
+               <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender"
+               </div>
+               <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality"
+               </div>
+               <button class="btn">Submit </button>
+           </form>
+           
+    </div>
+    </div>
+</body>
+</html>
